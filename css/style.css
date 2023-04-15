@@ -437,7 +437,14 @@ h4 {
  .about-text {
     font-size: 1em;
  }
-    
+
+ #contact {
+    font-size: 3.5em;
+ }
+
+ .contact-footer {
+    font-size: 1em;
+ }
 
 
    

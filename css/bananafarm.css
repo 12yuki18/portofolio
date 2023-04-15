@@ -389,5 +389,32 @@ p {
     .logo > a > img {
         width: 40%;
     }
+
+    #contact {
+        font-size: 3.5em;
+     }
+    
+     .contact-footer {
+        font-size: 1em;
+     }
+    
+     h2 {
+        font-size: 3.5em;
+        padding-left: 0;
+        text-align: center;
+     }
+    
+     .p-text {
+        font-size: 1.3em;
+     }
+    
+     h3 {
+        font-size: 1.5em;
+     }
+    
+     p {
+        font-size: 1em;
+     }
+    
     
 }

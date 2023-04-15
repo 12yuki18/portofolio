@@ -325,7 +325,7 @@ th {
 
 
     h2 {
-        font-size: 4em;
+        font-size: 3.5em;
         padding-left: 10px;
     }
 
@@ -345,6 +345,32 @@ th {
       .history-text tr:last-child{
         border-bottom: solid 1px #ccc;
       }
+
+      h3 {
+        font-size: 2.5em;
+    }
+
+
+.name1 {
+    font-size: 2.5em;
+}
+
+
+.aboutme-text {
+font-size: 1em;
+}
+
+.aboutme-table > th {
+    font-size: 1em;
+}
+
+#contact {
+font-size: 3.5em;
+}
+
+.contact-footer {
+font-size: 1em;
+}
 
 
 

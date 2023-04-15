@@ -371,17 +371,28 @@ input {
     h2 {
         padding-left: 0px;
         text-align: center;
+        font-size: 3em;
     }
 
     .p-text {
         padding-left: 0px;
-        font-size: 1.5em;
+        font-size: 1.3em;
         text-align: center;
     }
 
     .logo > a > img {
         width: 40%;
     }
+
+
+ #contact {
+    font-size: 3.5em;
+ }
+
+ .contact-footer {
+    font-size: 1em;
+ }
+
 
     
 }

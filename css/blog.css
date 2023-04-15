@@ -303,6 +303,12 @@ div > .contact-footer {
         display: none;
     }
 
+    h2 {
+        font-size: 3.5em;
+        padding-left: 0;
+        text-align: center;
+    }
+
     
 
     .menu-btn {
@@ -424,11 +430,22 @@ div > .contact-footer {
     .p-text {
         text-align: center;
         margin: auto;
+        font-size: 1.5em;
     }
 
     .logo > a > img {
         width: 40%;
     }
+
+
+ #contact {
+    font-size: 3.5em;
+ }
+
+ .contact-footer {
+    font-size: 1em;
+ }
+
 
     
 }
