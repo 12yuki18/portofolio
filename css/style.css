@@ -49,7 +49,7 @@ ul > li {
 
  a {
     color: black;
-    font-family: "Nanum Pen Script";
+     font-family: "Nanum Pen Script";;
     font-size: 2em;
 }
 
@@ -80,7 +80,7 @@ h2 {
     font-size: 5.5em;
     margin: 100px auto 50px auto;
     color: black;
-    font-family: "Nanum Pen Script";
+     font-family: "Nanum Pen Script"; 
     padding-left: 100px;
     font-weight: 500;
 }
@@ -122,7 +122,7 @@ h2 {
     font-size: 4.5em;
     font-weight:500;
     color: black;
-    font-family: "Nanum Pen Script";
+     font-family: "Nanum Pen Script";
     margin: 0;
 }
 
@@ -135,7 +135,7 @@ h2 {
 
 .myprofile {
     color: black;
-    font-family: "Nanum Pen Script";
+     font-family: "Nanum Pen Script";
     text-align: right;
     font-weight: 200;
 }
@@ -163,7 +163,7 @@ h3 {
     font-size: 5em;
     margin: 50px 0 100px 0;
     color: black;
-    font-family: "Nanum Pen Script";
+     font-family: "Nanum Pen Script";
     text-align: center;
     font-weight: 400;
 }
@@ -172,7 +172,7 @@ h3 {
 h4 {
     font-size: 2em;
     color: black;
-    font-family: "Nanum Pen Script";
+     font-family: "Nanum Pen Script";
     text-align: center;
     font-weight: 300;
     margin: 20px 0;
@@ -181,7 +181,7 @@ h4 {
 .viewmore {
     font-size: 1.5em;
     color: black;
-    font-family: "Nanum Pen Script";
+     font-family: "Nanum Pen Script";
     text-align: right;
     font-weight: 200;
     padding-right: 40px;
@@ -202,7 +202,7 @@ h4 {
 .photograph-text {
     font-size: 1em;
     color: black;
-    font-family: "Nanum Pen Script";
+     font-family: "Nanum Pen Script";
     font-weight: 300;
     padding-left: 40px;
 }
@@ -251,7 +251,7 @@ h4 {
     .viewmore-blog {
         font-size: 1.5em;
         color: black;
-        font-family: "Nanum Pen Script";
+         font-family: "Nanum Pen Script";
         text-align: right;
         font-weight: 200;
         padding-right: 40px;
@@ -290,7 +290,7 @@ h4 {
     #contact {
         font-size: 5em;
         color: black;
-        font-family: "Nanum Pen Script";
+         font-family: "Nanum Pen Script";
         font-weight: 600;
     }
 
@@ -301,7 +301,7 @@ h4 {
     .contact-footer {
         font-size: 1.7em;
         color: black;
-        font-family: "Nanum Pen Script"; 
+         font-family: "Nanum Pen Script";
     }
 
     .mailbox {
@@ -309,7 +309,7 @@ h4 {
         display: inline-block;
         padding: 5px;
         background-color: white;
-        font-family: "Nanum Pen Script"; 
+         font-family: "Nanum Pen Script"; 
         font-size: 1em;
         margin: auto;
     }
@@ -328,8 +328,9 @@ h4 {
 
     .more-box {
         color: black;
-        font-family: "Nanum Pen Script";
+         font-family: "Nanum Pen Script";
         font-size: 1.5em;
+        
     }
 
 
