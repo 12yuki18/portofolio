@@ -257,7 +257,7 @@ h4 {
 
     .myworks {
         padding-left: 0px;
-        font-size: 3.5em;
+        font-size: 3em;
         text-align: center;
     }
 
@@ -380,5 +380,22 @@ h4 {
  .contact-footer {
     font-size: 1em;
  }
+
+   
+ a {
+    font-size: 1.5em;
+}
+
+.web {
+    font-size: 25px;
+}
+
+.a-view {
+    font-size: 0.8em;
+}
+
+h4 {
+    font-size: 25px;
+}
 
 }
