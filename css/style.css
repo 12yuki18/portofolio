@@ -708,7 +708,7 @@ input {
 
     h2 {
         padding-left: 0;
-        font-size: 3.5em;
+        font-size: 2.5em;
         margin: 50px 20px;
     }
 
@@ -770,7 +770,7 @@ input {
     }
 
     h3 {
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
 
     
@@ -784,7 +784,7 @@ input {
  }
 
  #contact {
-    font-size: 3.5em;
+    font-size: 2.5em;
  }
 
  .contact-footer {
@@ -798,11 +798,15 @@ input {
 
    
  a {
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
 .web {
-    font-size: 25px;
+    font-size: 1em;
+}
+
+h4{
+    font-size: 1em;
 }
 
 .a-view {
@@ -1023,7 +1027,7 @@ th {
 }
 
 .contact-h2 {
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
     margin: 50px auto 0px auto;
 }
@@ -1059,7 +1063,7 @@ th {
 }
 
 .blog-h3 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-bottom: 30px;
 }
 
