@@ -7,13 +7,9 @@ img {
     width: 100%;
 }
 
- .instagram {
-    width: 50%;
-}
-
-.facebook {
-    width: 50%;
-}
+ .icon-about-fb {
+    margin-left: 20px;
+ }
 
 .web {
     font-size: 1em;
@@ -43,9 +39,6 @@ nav > ul  {
     padding-left: 0;
 }
 
-ul > li {
-    padding: 0 40px;
-}
 
  a {
     color: black;
@@ -77,11 +70,10 @@ li > a:visited {
   
 
 h2 {
-    font-size: 5.5em;
-    margin: 100px auto 50px auto;
+    font-size: 5em;
     color: black;
      font-family: "Nanum Pen Script"; 
-    padding-left: 100px;
+    margin: 100px;
     font-weight: 500;
 }
 
@@ -101,11 +93,12 @@ h2 {
 
 .about-left {
     width: 50;
-    padding-right: 30px;
+    margin: auto;
 }
 
 .about-right {
-    padding-left: 30px;
+    margin: auto;
+    
 }
 
 
@@ -156,12 +149,23 @@ h2 {
 .content-works > ul {
     display: flex;
     justify-content: space-around;
-    padding-left: 0;
+    padding-left: 0px;
+}
+
+.content-works-li {
+    width: 30%;
+}
+
+.content-photograph-li {
+    width: 30%;
+}
+
+.content-blog-li {
+    width: 30%;
 }
 
 h3 {
-    font-size: 5em;
-    margin: 50px 0 100px 0;
+    font-size: 4em;
     color: black;
      font-family: "Nanum Pen Script";
     text-align: center;
@@ -170,7 +174,7 @@ h3 {
 
 
 h4 {
-    font-size: 2em;
+    font-size: 1.5em;
     color: black;
      font-family: "Nanum Pen Script";
     text-align: center;
@@ -333,6 +337,313 @@ h4 {
         
     }
 
+    .aboutme-content > .box17 {
+       margin: auto;
+    }
+
+.box17{
+        
+    margin:2em 0;
+    position: relative;
+    padding: 2em 2em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
+.box17:before, .box17:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.box17:before {left: 10px;}
+.box17:after {right: 10px;}
+.box17 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+.box17  {
+    display: flex;
+    margin: 100px 50px;
+    max-width: 1000px;
+}
+
+.aboutme-left {
+    max-width: 700px;
+}
+
+.aboutme-right {
+    max-width: 300px;
+    margin: auto;
+}
+
+.aboutme-fb {
+    margin-left: 20px;
+}
+
+.aboutme-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+
+.aboutme-icon {
+    display: flex;
+}
+
+.name1 {
+    font-size: 4em;
+    color: black;
+    font-family: "Nanum Pen Script"; 
+}
+
+.name2 {
+    font-size: 2em;
+    color: black;
+    font-family: "Nanum Pen Script"; 
+    margin: 20px;
+}
+
+.aboutme-name > .name2 {
+    text-align: center;
+}
+
+.aboutme-table > th {
+    font-size: 1.5em;
+    color: black;
+    font-family: "Nanum Pen Script"; 
+    padding: 10px 30px;
+    font-weight: 100;
+    text-align: left;
+}
+
+.aboutme-icon {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.aboutme-text {
+    font-size: 1.3em;
+    color: black;
+    font-family: "Nanum Pen Script"; 
+    padding: 20px;
+}
+
+.profile-content > .box17 {
+    margin: auto;
+}
+
+.profile-text {
+    font-size: 1.3em;
+    color: black;
+    font-family: "Nanum Pen Script"; 
+    padding: 20px;
+    line-height: 2em;
+}
+
+.history-content {
+    max-width: 1000px;
+    margin: 0 auto 100px auto;
+}
+
+th {
+    font-size: 1em;
+    color: black;
+    font-family: "Nanum Pen Script"; 
+    padding: 20px;
+    font-weight: 200;
+    text-align: left;
+}
+
+.number {
+    font-size: 1.5em;
+    color: black;
+    font-family: "Nanum Pen Script"; 
+    font-weight: 200;
+    text-align: left;
+}
+
+
+
+
+.myworks-content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.myworks1 > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.myworks-photograph {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.photograph1 > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photograph1-text {
+    font-size: 1em;
+    color: black;
+    font-family: "Nanum Pen Script";
+    font-weight: 300;
+    padding-left: 80px;
+}
+
+
+.viewmore {
+    font-size: 1.5em;
+    color: black;
+    font-family: "Nanum Pen Script";
+    text-align: right;
+    font-weight: 200;
+    padding-right: 40px;
+    margin-bottom: 100px;
+}
+
+.bd-solid {
+    border-bottom: 1px solid black;
+}
+
+
+
+.h2-content {
+    display: flex;
+    justify-content: left;
+}
+
+.h2-content-contact {
+    display: flex;
+    justify-content: left;
+}
+
+
+
+.p-text {
+    font-size: 2em;
+    color: black;
+    font-family: "Nanum Pen Script";
+    font-weight: 300;
+   margin: auto 0 auto 20px;
+}
+
+.p-text-contact {
+    font-size: 1.7em;
+    margin: auto 0 auto 20px;
+    font-family: "Nanum Pen Script";
+}
+
+#blog {
+    margin: 100px 0px;
+}
+
+#contact {
+    margin: 30px 0px;
+}
+
+.nav-ul-li {
+    margin: auto 20px;
+}
+
+.footer-ul > li {
+    margin: auto 20px;
+}
+
+
+.textbox {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    height: 40px;
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+.textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 60%;
+    height: 300px;
+}
+
+.label {
+    color: black;
+    font-size: 2em;
+    font-family: "Nanum Pen Script";
+    font-weight: bold;
+}
+
+.form {
+    text-align: left;
+    width: 60%;
+    margin: auto;
+}
+
+
+input {
+    margin-bottom: 50px;
+}
+
+.submit > input {
+    font-size: 1.3em;
+    width: 5em;
+    height: 3em;
+    margin-top: 50px;
+}
+
+
+.contact {
+    width: 1000px;
+    width: auto;
+    text-align: center;
+}
+
+
+
+.blog-content > p > img {
+    width: 40%;
+}
+
+.blog-content{
+   text-align: center;
+}
+
+.text {
+    text-align: start;
+    width: 40%;
+    margin: auto;
+    font-family: "Nanum Pen Script";
+}
+
+.blog-h3 {
+    font-size: 2.5em;
+    margin: 0px auto 80px auto;
+    font-family: "Nanum Pen Script";
+}
+
+.ccu-sns  {
+    width: 5%;
+   margin: auto;
+}
 
 
 
@@ -363,21 +674,31 @@ h4 {
 
        
     .content-about {
-        display: block;
-        padding: 0 40px;
+        margin: auto 30px;
     }
 
     .menu {
         display: none;
     }
 
-    .content-works > ul {
+    .content-works > .content-works-ul {
        display: block;
     }
 
-    .content-photograph > ul {
+    .content-works-li {
+        margin: 30px auto;
+        width: 60%;
+    }
+
+    .content-photograph > ul{
         display: block;
     }
+
+    .content-photograph-li {
+        margin: 30px auto;
+        width: 60%;
+    }
+
 
     .photograph-text {
         width: 80%;
@@ -387,16 +708,29 @@ h4 {
 
     h2 {
         padding-left: 0;
-        text-align: center;
         font-size: 3.5em;
+        margin: 50px 20px;
     }
+
+
 
     .about-right {
         padding-left: 0;
+        width: 50%;
     }
 
     .about-left {
         padding-right: 0;
+        width: 50%;
+        margin: auto;
+    }
+
+    .icon-about-insta {
+        width: 10%;
+    }
+
+    .icon-about-fb {
+        width: 10%;
     }
 
     .top-blog > ul {
@@ -408,35 +742,45 @@ h4 {
     }
 
     .top-blog > ul > li {
-        margin-top: 50px;
+        margin: 40px auto;
+        width: 60%;
     }
+
+    .bottom-blog > ul > li {
+        margin: 40px auto;
+        width: 60%;
+    }
+
 
     .content-contact > div {
         display: block;
-        margin: 0px auto;
-        padding: 0 40px;
         text-align: center;
+    }
+
+    #contact {
+        margin: auto;
     }
 
     .mailbox {
         margin-top: 20px;
     }
 
-    
-    ul > li {
-        padding-top: 40px;
+    .menu-content-ul > li {
+        padding: 0px;
     }
 
     h3 {
         font-size: 2.5em;
     }
 
+    
  .about-left > .name {
-    font-size: 2.3em;
+    font-size: 1.2em;
  }
 
  .about-text {
-    font-size: 1em;
+    font-size: 0.8em;
+    margin: 0px;
  }
 
  #contact {
@@ -447,10 +791,14 @@ h4 {
     font-size: 1em;
  }
 
+ .myprofile {
+    margin: 0px 10px 0px 0px;
+ }
+
 
    
  a {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .web {
@@ -461,9 +809,23 @@ h4 {
     font-size: 0.8em;
 }
 
-h4 {
-    font-size: 25px;
+
+.hr1 {
+    height: 3px;
+    margin: 100px  auto 50px auto;
+    border: none;
+    background:linear-gradient(to right, white, gray, white);
+     height: 3px;
 }
+
+.hr2 {
+    height: 3px;
+    margin: 50px auto 100px auto;
+    border: none;
+    background:linear-gradient(to right, white, gray, white);
+    height: 3px;
+}
+
     
 
 
@@ -565,26 +927,154 @@ h4 {
         left: 0;
     }
 
-    .footer-ul > .none {
+    .footer-ul > .nav-ul-li-none {
         display: none;
     }
 
-    .footer-ul > li {
-        padding: 0;
+    .footer-ul > .nav-ul-li {
+        width: 10%;
     }
 
     .logo > a > img {
         width: 40%;
     }
 
+    .footer-ul {
+        margin: 0px auto 10px auto;
+    }
 
 
-    
+.aboutme-name {
+    margin-right: 0px;
+}
+
+
+.aboutme-icon {
+    display: flex;
 }
 
 
 
+.box17  {
+    display: flex;
+    margin: 100px 50px;
+    max-width: 1000px;
+}
+
+.aboutme-right {
+    margin-left: 10px;
+}
+
+.name1 {
+    font-size: 1em;
+}
+
+.name2 {
+    font-size: 0.8em;
+}
+
+.aboutme-text {
+    font-size: 0.8em;
+    padding: 0px;
+}
+
+.aboutme-table > th {
+    padding: 3px;
+    font-size: 0.7em;
+}
+
+.aboutme-icon > div {
+    width: 10%;
+}
+
+.aboutme-icon {
+    margin-top: 5px;
+    margin-left: 0px;
+}
 
 
+.profile-text {
+    font-size: 0.8em;
+    color: black;
+    font-family: "Nanum Pen Script"; 
+    padding: 20px;
+    line-height: 2em;
+}
+
+.number {
+    font-size: 1em;
+    padding: 10px;
+}
+
+th {
+    font-size: 0.8em;
+}
+
+.photograph-text {
+    font-size: 0.8em;
+}
+
+.p-text {
+    font-size: 1em;
+}
+
+.blog-text {
+    font-size: 0.8em;
+}
+
+.contact-h2 {
+    font-size: 3em;
+    text-align: center;
+    margin: 50px auto 0px auto;
+}
+
+.p-text-contact {
+    font-size: 1em;
+    margin: auto auto 50px auto;
+    font-family: "Nanum Pen Script";
+    text-align: center;
+}
 
 
+.h2-content-contact {
+    display: block;
+}
+
+.label {
+    font-size: 1.3em;
+}
+
+.textbox {
+    height: 30px;
+}
+
+.textarea {
+    height: 200px;
+}
+
+.text {
+    font-size: 0.8em;
+    font-family: "Nanum Pen Script";
+    width: 60%;
+}
+
+.blog-h3 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+
+.ccu-sns  {
+    width: 5%;
+   margin: auto;
+}
+
+.blog-content > p > img{
+    width: 60%;
+}
+.submit > input {
+    width: 3em;
+    height: 2em;
+}
+
+}

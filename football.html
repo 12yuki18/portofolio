@@ -5,26 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="portofolio">
-    <link rel="stylesheet" href="css/football.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+   
     <title>portofolio</title>
 </head>
 <body>
   <header>
     <h1 class="logo">
-        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+      <a href="index.html"><img src="images/logo.png" alt="logo"></a>
     </h1>
     <div class="menu">
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="works.html">Works</a></li>
-            <li><a href="https://www.instagram.com/12yuuki18/"><img src="images/insticon.gif" alt="instagram" class="instagram" ></a></li>
-            <li><a href="https://www.facebook.com/morikawa1218yuki"><img src="images/fbicon.gif" alt="facebook" class="facebook" ></a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="nav-ul-li"><a href="index.html">Home</a></li>
+            <li class="nav-ul-li"><a href="works.html">Works</a></li>
+            <li class="nav-ul-li"><a href="https://www.instagram.com/12yuuki18/"><img src="images/instagram.png" alt="instagram" class="instagram" ></a></li>
+            <li class="nav-ul-li"><a href="https://www.facebook.com/morikawa1218yuki"><img src="images/facebook.png" alt="facebook" class="facebook" ></a></li>
+            <li class="nav-ul-li"><a href="blog.html">Blog</a></li>
+            <li class="nav-ul-li"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     </div>
@@ -33,7 +33,7 @@
         <input type="checkbox" id="menu-btn-check">
         <label for="menu-btn-check" class="menu-btn"><span></span></label>
         <div class="menu-content">
-            <ul>
+            <ul class="menu-content-ul">
                 <li>
                     <a href="index.html">Home</a> 
                 </li>
@@ -50,17 +50,16 @@
             </ul>
         </div>
     </div> 
-  </header>  
-
+  </header>   
 <main>
     <div class="h2-content">
-        <h2 >BLOG -</h2>
-        <p class="p-text">気まぐれな日常や旅日記</p>
+        <h2 >BLOG </h2>
+        <p class="p-text"> - 気まぐれな日常や旅日記 -</p>
     </div>
 
     <section class="content">
-        <h3>Football in Australia</h3>
-        <div class="content-box">
+        <h3 class="blog-h3">Football in Australia</h3>
+        <div class="blog-content">
         <p class="text">一年目のチームから移籍し新しいチームでのシーズン。<br>2年目となりオーストラリアのサッカースタイルにも順応してきた。</p>
         <p><img src="images/football/IMG_4401.JPG" alt="football"></p>
         <p><img src="images/football/IMG_4719.JPG" alt="football"></p>
@@ -76,7 +75,7 @@
         <p><img src="images/football/IMG_5622.JPG" alt="football"></p>
         <p class="text">このチームの一員として戦えたことを誇りに思う。この悔しさがあるからサッカーは辞められない。引き続きこのチームを応援していきたい。
             <p class="ccu"><a href="https://en.wikipedia.org/wiki/Central_Coast_United_FC" class="team">Central Coast United FC</a></p>
-            <p class="ccu-sns"><a href="https://www.instagram.com/centralcoastunited/"><img src="images/insticon.gif" alt="instagram" class="instagram" ></a> </p>
+            <p class="ccu-sns"><a href="https://www.instagram.com/centralcoastunited/"><img src="images/instagram.png" alt="instagram" class="instagram" ></a> </p>
         <p class="viewmore-blog">
             <a href="blog.html" class="a-view"><span class="bd-solid">view more</span></a>
         </p>
@@ -96,8 +95,9 @@
         </section>
         <hr class="hr2">
     
+       
         <section class="bottom-photo">
-            <img src="images/footer.jpg" alt="hakone">
+            <img src="images/footer.png" alt="hakone">
         </section>
       </main>
     
@@ -107,13 +107,15 @@
             <a href="index.html"><img src="images/logo.png" alt="logo"></a>
         </h1>
         <ul class="footer-ul">
-            <li class="none"><a href="index.html">Home</a></li>
-            <li class="none"><a href="works.html">Works</a></li>
-            <li><a href="https://www.instagram.com/12yuuki18/"><img src="images/insticon.gif" alt="instagram" class="instagram" ></a></li>
-            <li><a href="https://www.facebook.com/morikawa1218yuki"><img src="images/fbicon.gif" alt="facebook" class="facebook" ></a></li>
-            <li class="none"><a href="blog.html">Blog</a></li>
-            <li class="none"><a href="contact.html">Contact</a></li>
+            <li class="nav-ul-li-none"><a href="index.html">Home</a></li>
+            <li class="nav-ul-li-none"><a href="works.html">Works</a></li>
+            <li class="nav-ul-li"><a href="https://www.instagram.com/12yuuki18/"><img src="images/instagram.png" alt="instagram" class="footer-instagram" ></a></li>
+            <li class="nav-ul-li"><a href="https://www.facebook.com/morikawa1218yuki"><img src="images/facebook.png" alt="facebook" class="footer-facebook" ></a></li>
+            <li class="nav-ul-li-none"><a href="blog.html">Blog</a></li>
+            <li class="nav-ul-li-none"><a href="contact.html">Contact</a></li>
         </ul>
       </footer>
+      <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+             <script src="script.js"></script>
     </body>
     </html>
