@@ -534,7 +534,7 @@ th {
     color: black;
     font-family: "Nanum Pen Script";
     font-weight: 300;
-   margin: auto 0 auto 20px;
+   margin: auto 20px;
 }
 
 .p-text-contact {
@@ -762,7 +762,7 @@ input {
     }
 
     .mailbox {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 
     .menu-content-ul > li {
@@ -795,7 +795,15 @@ input {
     margin: 0px 10px 0px 0px;
  }
 
+ .box {
+    padding: 2px;
+ }
 
+ .more-box {
+    color: black;
+    font-family: "Nanum Pen Script";
+    font-size: 1em;
+}
    
  a {
     font-size: 1em;
