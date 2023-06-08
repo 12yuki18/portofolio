@@ -662,6 +662,13 @@ input {
     border-radius: 10px;
 }
 
+.team {
+   font-size: 1.3em;
+}
+
+.team:visited {
+    color: #0d0d0d;
+}
 
 
 
