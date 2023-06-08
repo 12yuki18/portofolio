@@ -645,6 +645,24 @@ input {
    margin: auto;
 }
 
+.instagram {
+    border-radius: 10px;
+}
+
+.facebook {
+    border-radius: 10px;
+}
+
+
+.footer-instagram {
+    border-radius: 10px;
+}
+
+.footer-facebook {
+    border-radius: 10px;
+}
+
+
 
 
 
