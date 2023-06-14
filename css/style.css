@@ -1114,4 +1114,7 @@ th {
     height: 2em;
 }
 
+.mainvisual img {
+    height: 300px;
+}
 }
