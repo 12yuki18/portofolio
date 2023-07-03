@@ -674,20 +674,19 @@ input {
 
 
 
-
-
-
-
 @media screen and (min-width: 520px) {
     .humbergermenu {
         display: none;
     }
+
+    
 }
 
 
 
 
 @media screen and (max-width: 520px) {
+
 
     main {
         margin: 0 auto;
@@ -1114,7 +1113,4 @@ th {
     height: 2em;
 }
 
-.mainvisual img {
-    height: 300px;
-}
 }
