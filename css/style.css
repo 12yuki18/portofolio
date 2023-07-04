@@ -670,6 +670,10 @@ input {
     color: #0d0d0d;
 }
 
+.phone-mainvisual {
+    display: none;
+}
+
 
 
 
@@ -687,6 +691,13 @@ input {
 
 @media screen and (max-width: 520px) {
 
+    .mainvisual {
+        display: none;
+    }
+
+    .phone-mainvisual {
+        display: inline;
+    }
 
     main {
         margin: 0 auto;
