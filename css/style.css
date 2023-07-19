@@ -667,6 +667,9 @@ input {
     display: none;
 }
 
+.works-h3 {
+    margin-top: 100px;
+}
 
 
 
@@ -1119,5 +1122,11 @@ th {
 
 .viewmore-blog {
     width: 60%;
+}
+
+.viewmore {
+    padding-right: 0px;
+    width: 60%;
+    margin: 0px auto 100px auto;
 }
 }
