@@ -24,7 +24,7 @@ li {
 }
 
  .logo > a > img {
-    width: 20%;
+    width: 15%;
 }
 
 h1 {
@@ -42,8 +42,8 @@ nav > ul  {
 
  a {
     color: black;
-     font-family: "Nanum Pen Script";;
-    font-size: 2em;
+     font-family: "Nanum Pen Script";
+    font-size: 1.5em;
 }
 
 li > a:link {
@@ -133,9 +133,6 @@ h2 {
     font-weight: 200;
 }
 
-.bd-solid {
-    border-bottom: 1px solid black;
-}
 
 .a-view {
     font-size: 1em;
@@ -258,8 +255,8 @@ h4 {
          font-family: "Nanum Pen Script";
         text-align: right;
         font-weight: 200;
-        padding-right: 40px;
-        margin-top: 50px;
+        margin: 50px auto;
+        width: 40%;
     }
 
     .hr1 {
@@ -373,7 +370,7 @@ h4 {
 }
 
 .aboutme-left {
-    max-width: 700px;
+    max-width: 500px;
 }
 
 .aboutme-right {
@@ -509,10 +506,6 @@ th {
     font-weight: 200;
     padding-right: 40px;
     margin-bottom: 100px;
-}
-
-.bd-solid {
-    border-bottom: 1px solid black;
 }
 
 
@@ -1124,4 +1117,7 @@ th {
     height: 2em;
 }
 
+.viewmore-blog {
+    width: 60%;
+}
 }
