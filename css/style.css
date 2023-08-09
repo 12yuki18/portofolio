@@ -54,18 +54,26 @@ li > a:visited {
   }
   li > a:hover {
     color: #0d0d0d;
-    text-decoration: underline;
+    opacity: 0.5;
   }
+
   li > a:active {
     color: #0d0d0d;
   }
 
-  .web:hover {
-    color: #0d0d0d;
-    text-decoration: underline;
-  }
- 
   
+ 
+  .content-works-ul .content-works-li a:hover {
+    opacity: 0.5;
+  }
+
+.box:hover {
+    opacity: 0.5;
+}
+  
+.mailbox a:hover {
+    opacity: 0.5;
+}
  
   
 
@@ -1136,5 +1144,17 @@ th {
 
 .works-h3 {
     margin-top: 100px;
+}
+
+.content-works-ul .content-works-li a:hover {
+    opacity: 0.5;
+  }
+
+.box:hover {
+    opacity: 0.5;
+}
+  
+.mailbox a:hover {
+    opacity: 0.5;
 }
 }
